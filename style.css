@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: rgb(17, 15, 53);
+}
+.fomcont{
+    background-color: black;
+    border: 1px solid aqua;
+    width: 400px;
+    height: 350px;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+.cont {
+    position: relative;
+}
+.cont input{
+    padding-left: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #efeef3;
+    border-radius: 5px;
+    outline: none;
+    width: 380px;
+    height: 40px;
+    background-color: black;
+    color: rgb(198, 198, 221);
+    font-size: 14px;
+   
+}
+.cont input:focus{
+    outline: none;
+    border: 1px solid green;
+
+}
+.cont  label{
+    font-weight: 100;
+    transition: transform 0.3s;
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    line-height: 20px;
+    top:8px;
+    left: 8px;
+    pointer-events: none;
+}
+.cont input:focus~label,
+.cont input:valid~label{
+    font-size: 13px;
+    transform: translateY(-18px);
+    background-color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.formbtn span {
+        cursor: pointer;
+        font-size: 18px;
+        color: white;
+        font-family: "Teachers", sans-serif;
+        margin-right: 50px;
+        border: none;
+        margin-left: 70px;
+        margin-bottom: 0px;
+        top: 30px;
+    }
+    #underline{
+       
+        position: relative;
+        margin-bottom: 15px;
+        
+        left: 220px;
+        height: 4px;
+        width: 100px;
+        background-color: greenyellow;
+        border: none;
+        border-radius: 2px;
+        transition: transform 0.9s ease;
+    } 
+   .submit{
+    width: 320px;
+    height: 40px;
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 10px;
+    color: rgb(8, 8, 8);
+    margin-left: 30px;
+    font-size: 20px;
+    opacity: 0.8;
+    outline: none;
+    font-weight: 700;
+    box-shadow: 0.5px 0.3px 20px 1px rgb(4, 4, 78);
+   }
+   .submit:hover{
+  background-color: rgb(214, 147, 22);
+  opacity: 1.0;
+   }
+   #login{
+    position: relative;
+    top:60px;
+    transition: transform 0.9s;
+   }
+   #register{
+    transition: transform 0.9s;
+   }
+   .holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:8px;
+    right:15px;
+    background-color:rgb(8, 8, 8);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+   }
+   .holder2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:8px;
+    right:15px;
+    background-color:rgb(8, 8, 8);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+   }
+.holder2:hover{
+    cursor: pointer;
+}
+   .fa-solid{
+    color: rgb(242, 241, 245);
+   }
+   .holder:hover{
+  cursor: pointer;
+   }
+   .emailbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:8px;
+    right:15px;
+    background-color:black;
+    border-radius: 2px;
+    width: 25px;
+    height: 25px;
+   }
+   .userbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:8px;
+    right:15px;
+    background-color:black;
+    border-radius: 2px;
+    width: 25px;
+    height: 25px;
+   }
+  
